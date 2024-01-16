@@ -1,0 +1,240 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 0 23px;
+  align-items: center;
+}
+
+body{
+  background-color: black;
+}
+
+.hero__theme{
+  color: #D4CC7B;
+  font-family: Muller;
+  font-size: 70px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -3.15px;
+  padding-top: 140px;
+  padding-bottom: 48px;
+}
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+  background: url(../images/hero_backroound.svg) no-repeat 100%;
+}
+
+.hero__left{
+  width: 50%;
+  height: auto;
+}
+
+.avtopark__theme{
+  color: #D4CC7B;
+  font-family: Muller;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.16px;
+  padding-top: 250px;
+}
+
+.left{
+  padding-bottom: 48px;
+  color: #FFF;
+  font-family: Muller;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.35px;
+}
+
+.nav__item{
+  color: white;
+}
+
+.nav__item:hover{
+  color: blue;
+}
+
+.number{
+  color: white;
+}
+
+.number:hover{
+  color: red;
+}
+
+.hero__left__btn{
+  width: 252.7px;
+  height: 62.846px;
+  transform: rotate(-0.106deg);
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: linear-gradient(280deg, #FFF -23.59%, #DBB500 115.07%);
+  box-shadow: 0px 0px 20px 0px #D6A500;
+}
+
+.hero__left__btn:hover{
+  background: linear-gradient(280deg, #DBB500 -23.59%, white 115.07%);
+  color: white;
+  border-color: #D6A500;
+  box-shadow: 0px 0px 20px 0px white;
+  transition-duration: 0.3s;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.theme__card{
+  display: flex;
+  color: #FFF;
+  gap: 10px;
+  padding: 0 30px;
+  align-items: center;
+}
+
+.card{
+  width: 377px;
+  height: 492px;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 10px;
+  padding-top: 84px;
+  gap: 20px;
+}
+
+.about{
+  display: flex;
+  justify-content: space-around;
+}
+
+.price{
+  color: #FFF;
+  font-family: Muller;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.08px;
+}
+
+.card__btn{
+  width: 281.177px;
+  height: 58.346px;
+  transform: rotate(-0.06deg);
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 1px solid #ECD774;
+  box-shadow: 0px 0px 5px 0px #D6A500;
+  background-color: black;
+}
+
+.card__btn:hover{
+  color: black;
+  background-color: #ECD774;
+  transition-duration: 0.3s;
+}
+
+.card__btn p{
+  color: #FFF;
+  font-family: Muller;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.08px;
+}
+
+.usloviya{
+  color: #ECD774;
+  font-family: Muller;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.16px;
+}
+
+.arenda{
+  color: #FFF;
+  font-family: Muller;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.16px;
+}
+
+.needs{
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  gap: 180px;
+}
+
+.arenda__shartlari{
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.Договор__btn{
+  width: 211px;
+  height: 41px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #F8B500;
+  background: #ECD774;
+  box-shadow: 0px 0px 5px 0px #EFAC00;
+  margin-top: 80px;
+}
+
+.Договор__btn:hover{
+  border: 1px solid #F8B500;
+  background: white;
+  color: #D6A500;
+  box-shadow: 0px 0px 5px 0px #EFAC00;
+  transition-duration: 0.3s;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 345px;
+}
+
+.txt{
+  color: white;
+}
+
+.phone_number{
+  display: flex;
+}
+
+.center__footer{
+  padding: 0 100px;
+}
